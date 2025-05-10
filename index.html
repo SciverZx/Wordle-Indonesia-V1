@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zescra Wordle</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wordle-container">
+        <input id="hiddenInput1" maxlength="5" autofocus class="hiddenInput" oninput="updateBoxes()" />
+
+        <div id="grid">
+            <div class="row" id="1">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div class="row" id="2">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div class="row" id="3">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div class="row" id="4">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div class="row" id="5">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div class="row" id="6">
+                <div class="box" id="box0"></div>
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
